@@ -7,10 +7,10 @@ import pandas as pd
 import torch
 import matplotlib.pyplot as plt
 
-!pip install -qr https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
+#$pip install -qr https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
 
-cl_path = r'C:\Users\Andy Guevara\Projects\ECE499_Emotions _Classifier\Emotion_Recognition_Via_MLMethods\Emotions Classifier\live_files\best_model40'
-ob_path = r'C:\Users\Andy Guevara\Projects\ECE499_Emotions _Classifier\Emotion_Recognition_Via_MLMethods\Emotions Classifier\live_files\best.pt'
+cl_path = r'C:\Users\andyg\Documents\ECE 499 - CV Project\Live Implementation\best_model40'
+ob_path = r'C:\Users\andyg\Documents\ECE 499 - CV Project\Live Implementation\best.pt'
 
 cl_model = keras.models.load_model(cl_path)
 
@@ -55,12 +55,13 @@ def find_emotion(eyes):
     prediction = classes[results[0,:] == np.max(results[0,:])]
     return prediction[0]
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 while True:
     if cam.isOpened():
         ret, frame = cam.read()
     else:
         print("cannot open camera")
+        break
 
     x1,x2,y1,y2,eyes,detection = get_eyes(frame)
     if detection:
