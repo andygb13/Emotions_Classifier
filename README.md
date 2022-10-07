@@ -20,7 +20,7 @@ A live implementation script live_emotions.py is included for showcasing the obj
 
 Prior to using the live_emotions script make sure the libraries imported in the first eight lines of the scrip have been installed. Also, install yolov5 requirements which are included as a comment in the script. Once these have been installed, replace the classifier and object detector path (cl_path and od_path) with the location of the files in your local computer. The script should now be ready to run.
 
-<img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/mask.png"  width="500" height="500">
+<img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/mask.png"  width="500" height="300">
 
 The live_emotions.py script has been tested using versions of Python 9 and Python 10. 
 
