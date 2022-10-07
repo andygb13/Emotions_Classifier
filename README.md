@@ -7,10 +7,15 @@ This repository includes a pipeline for processing facial images and training an
 
 <img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/Picture2.png"  width="500" height="500">
 
-
 ## File Structure
 
+    ├── Processing and Training      # Jupyter Notebook files detailing the image and training pipelines
+    ├── Samples                      # Samples from final product on stock images
+    ├── live_emotions.py             # Python program to perform a live implementation of both the object detector and classifier
+    └── README.md
 
 ## How to use live implementation
+
+
 
 ### Requirements
