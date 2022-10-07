@@ -5,7 +5,7 @@ Emotions classifier using machine learning based on eye images (the periocular a
 
 This repository includes a pipeline for processing facial images and training an emotions classifier. The dataset used for this project was the AffectNet dataset, which includes more than 30k training samples, and 3k evaluation samples. The images to be processed are cropped (eyes) facial images from the original AffectNet dataset, these were generated using a YOLOv5 object detector:
 
-<img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/cropped_img.png"  width="500" height="500">
+<img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/cropped_img.png"  width="500" height="100">
 
 The processed images are used for training a ResNet-50 model. This model's inteded use is to predict an emotion from a periocular area image, as shown in the example below:
 
