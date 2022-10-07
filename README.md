@@ -3,7 +3,7 @@ Emotions classifier using machine learning based on eye images (the periocular a
 
 <img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/Picture1.png"  width="500" height="500">
 
-This repository includes a pipeline for processing facial images and training an emotions classifier. The dataset used for this project was the AffectNet dataset, which includes more than 30k training samples, and 3k evaluation samples. The images to be processed are cropped (eyes) facial images from the original AffectNet dataset, these were generated using a YOLOv5 object detector:
+This repository includes a pipeline for processing facial images and training an emotions classifier. The dataset used for this project was the AffectNet dataset, which includes more than 30k training samples, and 3k evaluation samples. The images to be processed are cropped and augmented (eyes) facial images from the original AffectNet dataset, these were generated using a YOLOv5 object detector:
 
 <img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/cropped_img.png"  width="800" height="150">
 
@@ -11,7 +11,7 @@ The processed images are used for training a ResNet-50 model. This model's inted
 
 <img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/Picture2.png"  width="500" height="500">
 
-A live implementation script live_emotions.py is included for showcasing the object detection and emotion classifier live using a local webcam (or desired source). See below for details on how to use live implementation.
+A live implementation script live_emotions.py is included for showcasing the object detection and emotions classifier live using a local webcam (or desired source). See below for details on how to use live implementation.
 
 ## File Structure
 
