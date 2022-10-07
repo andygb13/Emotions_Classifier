@@ -30,6 +30,6 @@ The live_emotions.py script has been tested using versions of Python 9 and Pytho
 
 ### Requirements
 
-The files for the Tensorflow emotions classification model and the Pytorch object detector are not included in this repository due to file size constraints. Please email andygb13@gmail.com to to request the files and they will be sent to you as soon as possible.
+The files for the Tensorflow emotions classification model and the Pytorch object detector weights are not included in this repository due to file size constraints. Please email andygb13@gmail.com to to request the files and they will be sent to you as soon as possible.
 
 The live implementation will not work if a webcam (or other image source) is not connected to the local computer.
