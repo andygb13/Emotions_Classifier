@@ -1,4 +1,4 @@
-Periocular Emotions Classifier
+#Periocular Emotions Classifier
 Emotions classifier using machine learning based on eye images (the periocular area of the face).
 
 <img src="https://github.com/andygb13/Emotions_Classifier/blob/main/Samples/Picture1.png"  width="500" height="500">
