@@ -17,7 +17,7 @@ A live implementation script live_emotions.py is included for showcasing the obj
 
     ├── Processing and Training      # Jupyter Notebook files detailing the image and training pipelines
     |    ├── Dataset_Processing.ipynb     # Data processing to use for training classifier
-    |    ├── Emotions_Classifier.ipynb    # Training of a ResNet-50 model for emotion classification 
+    |    └── Emotions_Classifier.ipynb    # Training of a ResNet-50 model for emotion classification 
     ├── Samples                      # Samples from final product on stock images
     ├── live_emotions.py             # Python program to perform a live implementation of both the object detector and classifier
     └── README.md
